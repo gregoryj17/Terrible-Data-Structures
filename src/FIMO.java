@@ -43,6 +43,10 @@ public class FIMO<T> {
 		return ret;
 	}
 
+	public T remove(){
+		return pop();
+	}
+
 	public boolean isEmpty(){
 		return data.length==0;
 	}

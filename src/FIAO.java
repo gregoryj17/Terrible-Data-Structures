@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Stack;
 
 //A First-In, Alternating-Out Data Structure
-public class FIAO<T> {
+public class FIAO<T> implements Structure<T> {
 
 	private Stack<T> stack;
 	private LinkedList<T> queue;
@@ -52,6 +52,10 @@ public class FIAO<T> {
 		}
 		output=!output;
 		return ret;
+	}
+
+	public T remove(){
+		return pop();
 	}
 
 	public boolean isEmpty(){

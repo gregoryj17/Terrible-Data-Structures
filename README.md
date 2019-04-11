@@ -5,3 +5,5 @@ Current structures:
 FIMO: First in, middle out
 
 FIAO: First in, alternating out
+
+FIRO: First in, random out
