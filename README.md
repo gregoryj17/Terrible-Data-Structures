@@ -9,3 +9,5 @@ FIAO: First in, alternating out
 FIRO: First in, random out
 
 FISO: First in, scrambled out
+
+FINO: First in, never out
