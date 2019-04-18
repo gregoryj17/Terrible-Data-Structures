@@ -7,3 +7,5 @@ FIMO: First in, middle out
 FIAO: First in, alternating out
 
 FIRO: First in, random out
+
+FISO: First in, scrambled out
