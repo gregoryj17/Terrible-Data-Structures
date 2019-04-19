@@ -25,6 +25,7 @@ public class FINO<T> implements Structure<T> {
 	}
 
 	public T remove(){
+		if(isEmpty())(new ArrayList<>()).remove(0);
 		data--;
 		return null;
 	}
